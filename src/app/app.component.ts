@@ -29,8 +29,12 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
-      { title: 'New todo', component: HelloIonicPage },
-      { title: 'Todo list', component: ListPage }
+      { title: 'Menu', component: HelloIonicPage },
+      { title: 'Category 1', component: ListPage },
+      { title: 'Category 2', component: ListPage },
+      { title: 'Category 3', component: ListPage },
+      { title: 'Category 4', component: ListPage },
+      { title: 'Category 5', component: ListPage }
     ];
   }
 
